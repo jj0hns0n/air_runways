@@ -1,0 +1,1 @@
+ogr2ogr -nlt POLYGON -s_srs EPSG:2230 -t_srs EPSG:4326 -f "GeoJSON" ./test.json "air_runways_gs_wfs.json"
